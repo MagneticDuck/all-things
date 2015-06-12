@@ -6,8 +6,6 @@ version:             0.1.0.0
 synopsis:            Collect data from the CW3 score / map system
 -- description:         
 homepage:            xkcd.com
-license:             MIT
-license-file:        LICENSE
 author:              Magnetic Duck
 maintainer:          zenmags@gmail.com
 -- copyright:           

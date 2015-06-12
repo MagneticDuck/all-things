@@ -1,0 +1,23 @@
+name:           indent-parse
+version:        0.3
+cabal-version:  >= 1.2
+build-type:     Simple
+author:         magneticduck
+homepage:       https://github.com/MagneticDuck/IndentParse
+license:        PublicDomain
+maintainer:     zenmags@gmail.com
+stability:      release
+synopsis:       A basic interface to read and write data from a string
+category:       parsing
+description:    This package exports a generic recursive
+                data type which can be transformed into
+                another and methods to read and write
+                it from and to a string
+copyright:      2012
+
+library
+  hs-source-dirs:  src
+  build-depends:   base >= 4
+  ghc-options:     -Wall
+  exposed-modules: IndentParse
+

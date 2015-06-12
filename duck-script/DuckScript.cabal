@@ -1,0 +1,20 @@
+name:           duck-script
+version:        0.1
+cabal-version:  >= 1.2
+build-type:     Simple
+author:         magneticduck
+maintainer:     zenmags@gmail.com
+stability:      beta
+synopsis:       a simple interface to parse recursive data structures from a file
+
+library
+  hs-source-dirs:  src
+  build-depends:   
+                   base >= 4,
+                   random,
+                   split,
+                   indent-parse,
+                   sentence-id
+  ghc-options:     -Wall
+  exposed-modules: DuckScript
+

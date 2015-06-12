@@ -1,0 +1,21 @@
+Concat
+  Concat
+    hey there, $usernick"." Here's a random word: "\""
+    Concat
+      Random
+        yum
+        linux
+        apples
+        wow
+      "\""
+  Concat
+    Oh, and scotty..." "
+    Case
+      Block
+        Equals
+          $code
+          green
+        Watch out! Code green
+      Block
+        True
+        Code $code
